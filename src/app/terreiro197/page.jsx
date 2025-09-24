@@ -69,7 +69,7 @@ export default function Alagbara() {
           </span>
 
           <h2 className={style.therdyTitle}>Me acompanhe nas redes</h2>
-          <Link href="https://www.instagram.com/alagbara.sagradomasculino?igsh=MXBycGk4NGtzbG42dw==" className={style.socialmidia}><IoLogoInstagram /></Link>
+          <Link href="http://instagram.com/terreiro197" className={style.socialmidia}><IoLogoInstagram /></Link>
 
           <Link href="/" className={style.therdyTitle}>Voltar ao Egbe Jahari</Link>
         </div>
