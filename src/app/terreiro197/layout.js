@@ -1,9 +1,9 @@
-import './global.css'
+import "./global.css"
 
 export default function LinksLayout({ children }) {
   return (
     <html lang="pt_br">
-      <body>{children}</body> 
+      <body>{children}</body>
     </html>
   )
 }

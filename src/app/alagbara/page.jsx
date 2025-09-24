@@ -2,7 +2,6 @@ import Image from "next/image"
 import style from "./style.module.css"
 import Link from "next/link"
 
-import { TiSocialFacebook } from "react-icons/ti";
 import { IoLogoInstagram } from "react-icons/io";
 
 export default function Alagbara() {

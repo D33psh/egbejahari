@@ -5,19 +5,5 @@
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-
-  justify-content: center;
-  align-items: center;
-
-  background-image: url("/background_3.png");
-  background-position: center;
-  background-repeat: repeat-x;
-  background-size: cover;
-  background-color: black;
-  backdrop-filter: blur(2px);
+  background-color: #000;
 }
