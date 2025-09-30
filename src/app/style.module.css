@@ -1,12 +1,369 @@
-.background {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+.text_heading2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.text_heading2_white {
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.text_textbox {
+  font-family: "Open sans", sans-serif;
+  font-weight: 800;
+  font-size: 0.625rem;
+}
+
+.text_textbox_white {
+  font-family: "Open sans", sans-serif;
+  font-weight: 800;
+  font-size: 0.625rem;
+  color: #fff;
+}
+
+.button {
+  min-width: 5rem;
+  width: fit-content;
+
+  padding: 0.3rem 0.5rem;
+
+  background-color: #423f32;
+
+  border: none;
+  border-radius: 1rem;
+
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+
+  gap: 0.5rem;
+}
+
+.button_social {
+  width: fit-content;
+  height: auto;
+
+  background: none;
+
+  border: none;
+}
+
+.button_social_image {
+  size: 2rem;
+}
+
+.buttonlabel {
+  width: fit-content;
+  color: #000;
+}
+
+.buttonlabel_white {
+  width: fit-content;
+  color: #fff;
+}
+
+.buttonimage {
+  width: 1rem;
+  height: 1rem;
+
+  background-color: #fff;
+
+  border-radius: 100%;
+}
+
+.link {
+  color: #000;
+  font-weight: bold;
+}
+
+.home {
+  width: 100vw;
+  height: fit-content;
+
+  padding: 3rem 0;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: top;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.home_image {
+  width: 90vw;
+  height: auto;
+}
+
+.home_textbox {
+  width: 80vw;
+
+  font-family: "Open sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 0.625rem;
+}
+
+.home_nav {
+  width: 80vw;
+
+  padding: 2rem 0;
+
+  background-color: rgb(0, 0, 0, 0.2);
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.home_nav_ul {
+  width: 80%;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 1rem;
+
+  list-style-type: none;
+}
+
+.home_nav_li {
+  width: 100%;
+
+  padding: 0.5rem 0;
+
+  font-size: 1rem;
+
+  border: 1px solid #000;
+
+  display: flex;
+
+  justify-content: center;
+}
+
+.about {
+  width: 100vw;
+  height: fit-content;
+
+  padding: 3rem 0;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.about_textbox {
+  width: 80vw;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.babalorisa {
+  width: 100vw;
+  height: fit-content;
+
+  padding: 3rem 0;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.babalorisa_image {
+  width: 90vw;
+  height: auto;
+}
+
+.babalorisa_textbox {
+  width: 80vw;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.diamond {
+  width: 100vw;
+  height: fit-content;
+
+  padding: 3rem 0;
+
+  background-color: #010410;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.diamond_textbox {
+  width: 80vw;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.diamond_image {
+  width: 80vw;
+  height: auto;
+}
+
+.diamond_buttonarea {
+  width: 80vw;
+
+  display: flex;
+
+  gap: 1rem;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.alagbara {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #141816;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.alagbaraimage {
+  width: 80vw;
+  height: auto;
+}
+
+.umbanda {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.terreiro197 {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #c10808;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.terreiro197image {
+  width: 80vw;
+  height: auto;
+
+  border-radius: 100%;
+}
+
+.wurashop {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #000000;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.wurashop_textbox {
+  width: 80vw;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.wurashop_buttonarea {
+  width: 80vw;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.wurashopimage {
+  width: 40vw;
+  height: auto;
+  border-radius: 100%;
+}
+
+.footer {
   width: 100vw;
   height: 100vh;
 
   display: flex;
+  flex-direction: column;
+
   justify-content: center;
   align-items: center;
+}
+
+.footer_buttonarea {
+  width: 80vw;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
 }
