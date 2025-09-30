@@ -142,7 +142,7 @@ export default function Alagbara() {
 
           <h2 className={style.therdyTitle}>Me acompanhe nas redes</h2>
           <Link
-            href="http://instagram.com/terreiro197"
+            href="https://www.instagram.com/egbejahari?igsh=dGlia3pla3VmbDZ0"
             className={style.socialmidia}
           >
             <IoLogoInstagram />

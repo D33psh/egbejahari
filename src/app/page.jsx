@@ -37,12 +37,12 @@ export default function Home() {
               </Link>
             </li>
             <li className={styles.home_nav_li}>
-              <Link href="#terreiro197" className={styles.link}>
+              <Link href="/terreiro197" className={styles.link}>
                 Terreiro 197
               </Link>
             </li>
             <li className={styles.home_nav_li}>
-              <Link href="#alagbara" className={styles.link}>
+              <Link href="/alagbara" className={styles.link}>
                 Àlàgbára
               </Link>
             </li>
@@ -60,7 +60,7 @@ export default function Home() {
               </Link>
             </li>
             <li className={styles.home_nav_li}>
-              <Link href="#umbanda" className={styles.link}>
+              <Link href="/umbanda" className={styles.link}>
                 Umbanda
               </Link>
             </li>
@@ -304,54 +304,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="alagbara" className={styles.alagbara}>
-        <Image
-          src="/alagbara_logo.png"
-          alt="Alagbara"
-          width={500}
-          height={500}
-          className={styles.alagbaraimage}
-        />
-
-        <button className={styles.button}>
-          <Link href="/alagbara" className={styles.link}>
-            Saber Mais
-          </Link>
-        </button>
-      </section>
-      <section id="umbanda" className={styles.umbanda}>
-        <Image
-          src="/logo-umbanda.png"
-          alt="Centro Espiritual Caboclo Flecha Dourada"
-          width={500}
-          height={500}
-          className={styles.alagbaraimage}
-        />
-
-        <button className={styles.button}>
-          <Link href="/umbanda" className={styles.link}>
-            Saber Mais
-          </Link>
-        </button>
-      </section>
-      <section id="terreiro197" className={styles.terreiro197}>
-        <Image
-          src="/logo-terreiro.jpg"
-          alt="Terreiro 197"
-          width={640}
-          height={640}
-          className={styles.terreiro197image}
-        />
-
-        <button className={styles.button}>
-          <Link
-            href="http://egbejahari.com/terreiro197"
-            className={styles.buttonlabel}
-          >
-            Saber Mais
-          </Link>
-        </button>
-      </section>
       <section id="wurashop" className={styles.wurashop}>
         <div className={styles.wurashop_textbox}>
           <Image
@@ -409,7 +361,7 @@ export default function Home() {
             <div className={styles.wurashop_buttonarea}>
               <button className={styles.button}>
                 <Link
-                  href="http://instagram.com/wurashopoficial"
+                  href="https://www.instagram.com/wurashop.oficial/"
                   className={styles.buttonlabel_white}
                 >
                   Saber Mais
