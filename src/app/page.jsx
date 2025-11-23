@@ -385,10 +385,10 @@ export default function Home() {
       </section>
       <section id="footer" className={styles.footer}>
         <Image
-          src="/IleAse_completo_transparente.png"
+          src="/IleAse_completo.png"
           alt="Ilê Àse"
-          width={500}
-          height={500}
+          width={400}
+          height={400}
         />
 
         <div className={styles.footer_buttonarea}>
