@@ -11,8 +11,8 @@ export default function Alagbara() {
         <Image
           src="/aje-home.png"
           alt="Ajê"
-          width={565 / 1.3}
-          height={799 / 1.3}
+          width={565 / 1.4}
+          height={799 / 1.4}
         />
       </section>
       <section className={style.two} id="two">
@@ -100,7 +100,10 @@ export default function Alagbara() {
       <section className={style.six}>
         <div className={style.secoundTextBox}>
           <div className={style.button}>
-            <Link href="#" className={style.secoundLink}>
+            <Link
+              href="https://pay.kiwify.com.br/XGEQOXa"
+              className={style.secoundLink}
+            >
               Comprar
             </Link>
           </div>
@@ -133,7 +136,7 @@ export default function Alagbara() {
 
           <div className={style.buttonGroup}>
             <Link
-              href="https://www.instagram.com/alagbara.sagradomasculino?igsh=MXBycGk4NGtzbG42dw=="
+              href="http://instagram.com/egbejahari"
               className={style.button}
             >
               <IoLogoInstagram />
